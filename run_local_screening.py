@@ -8,7 +8,7 @@ import sys
 
 # 【設定】
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "llama3.1" # ここはダウンロードしたモデル名に合わせて変更可能です（例: "qwen2.5", "gemma2" など）
+MODEL_NAME = "llama4" # ここはダウンロードしたモデル名に合わせて変更可能です（例: "qwen2.5", "gemma2" など）
 INPUT_FILE = "Articles_cleaned.csv"
 OUTPUT_FILE = "screening_results.csv"
 CRITERIA_FILE = "Criteria.csv"
